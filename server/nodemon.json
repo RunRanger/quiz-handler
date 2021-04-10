@@ -1,0 +1,9 @@
+{
+  "watch": ["src/"],
+  "ext": "json,ts,js",
+  "ignore": ["src/**/*.spec.ts"],
+  "execMap": {
+    "ts": "node -r ts-node/register"
+  },
+  "delay": "3000"
+}
